@@ -10,6 +10,7 @@ const resolvers = {
                 }
             }
             catch (err) {
+                console.log(err)
                 throw AuthenticationError;
             }
         }
@@ -40,6 +41,7 @@ const resolvers = {
                 return deletedUser;
             }
             catch (err) {
+                console.log(err);
                 throw AuthenticationError;
             }
         },
@@ -50,6 +52,7 @@ const resolvers = {
                 return {token, user}
             }
             catch (err) {
+                console.log(err);
                 throw AuthenticationError;
             }
         },
@@ -66,6 +69,7 @@ const resolvers = {
                 }
             }
             catch (err) {
+                console.log(err)
                 throw AuthenticationError;
             }
         }
