@@ -1,3 +1,3 @@
 # Book-Search-Engine-Module-21-Challenge
 <img width="1470" alt="Screen Shot 2023-12-13 at 7 42 25 PM" src="https://github.com/jushendhillon9/Book-Search-Engine-Module-21-Challenge/assets/137123520/be8b9e73-960b-4609-9f28-33be55e247b3">
-Description:
+Description: In this module challenge I was tasked with refactoring a basic book search app that used API routes to query the data and also implemented its user authentication also using API routes. I was tasked with changing the API routes to GraphQL queries and mutations that were implemented and communicating between the client and server side of the project. Furthermore, I also had to edit the react files to ensure it was configured with Apollo Client, in order for the routes to work. The logout and login features also had to be refactored in accordance with the queries to ensure the JWT token being used was used correctly.
